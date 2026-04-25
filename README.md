@@ -12,6 +12,14 @@ The system is designed as a self-contained prototype, where all modules interact
 	•	Seamless integration of vision and control
 	•	Real-time performance without inter-file dependencies
 
+Output Visualization
+Below is a sample output showing real-time detection and path planning:
+    •	Green boundary: Arena detection
+	•	Red box: Obstacle
+	•	Yellow path: Planned path (A*)
+	•	BOT: Robot position
+	•	GOAL: Target location
+
 Future Improvements
 	•	Modularizing into separate files (marker.py, path_planning.py, etc.)
 	•	Adding obstacle avoidance with dynamic updates
